@@ -3,8 +3,17 @@ import gglLogo from './../../google-brands.svg';
 import gitLogo from './../../github-brands.svg';
 import fbLogo from './../../facebook-brands.svg';
 import { Link } from 'react-router-dom';
+import Toggle from '../Hooks/toggleRegiLog';
+import Usefirebase from '../Hooks/Usefirebase';
 
 const Login = () => {
+    const handleLinkLogin = () => {
+        const [visibilty, setVisibilty] = Toggle();
+        setVisibilty(1);
+        console.log(visibilty);
+    }
+    const { signIn, user } = Usefirebase();
+
     return (
         <div className='w-[400px]  absolute right-3 top-24 h-[650px] bg-[white] border-black  rounded-lg register shadow-black mx-auto border-2 '>
             <p className='text-5xl text-center my-[30px] font-semibold text-[#5F50D9]'>LOG IN</p>
@@ -16,12 +25,12 @@ const Login = () => {
                 <button className='uppercase text-2xl rounded-3xl border-[2px] border-[#422eda] px-10 font-semibold py-5'>
                     LOGIN
                 </button>
-                <Link className='text-[#422eda]' to='/home'>Not Registered ?</Link>
+                <Link onClick={handleLinkLogin} className='text-[#422eda]' to='/home'>Not Registered ?</Link>
             </div>
 
             <br />
             <br />
-            <button className='uppercase  w-full text-2xl rounded-3xl border-[2px] border-[#422eda] px-5 font-semibold py-2 flex items-center justify-around'>
+            <button onClick={signIn} className='uppercase  w-full text-2xl rounded-3xl border-[2px] border-[#422eda] px-5 font-semibold py-2 flex items-center justify-around'>
                 <img className='w-[40px]' src={gglLogo} alt="" />
                 <span className='block '>LOGIN With Google</span>
             </button>

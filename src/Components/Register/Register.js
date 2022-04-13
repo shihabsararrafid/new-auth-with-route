@@ -6,11 +6,13 @@ import { Link } from 'react-router-dom';
 import './Register.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import toggle from '../Hooks/toggleRegiLog';
+
+import Toggle from '../Hooks/toggleRegiLog';
 
 const handleLink = () => {
-    const [visibilty, setVisibilty] = toggle();
+    const [visibilty, setVisibilty] = Toggle();
     setVisibilty(0);
+    console.log(visibilty);
 }
 const Register = () => {
     return (
