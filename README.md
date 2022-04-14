@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# New Auth App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Designed with Tailwind [New auth with route](https://github.com/shihabsararrafid/new-auth-with-route).
 
-## Available Scripts
+##  Scripts I have used
 
-In the project directory, you can run:
+In the project I have used
 
-### `yarn start`
-
+### `yarn packages`
+to install react app and other packages like tailwind or react-router
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [New Auth with route](https://new-auth-4d53b.firebaseapp.com/) to view it in your browser.
+It has been deployed in firebase .
+This is my first project which has been deployed in Firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Steps to deploy in firebase`
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. run the command in cmd 'npm install -g firebase tools' this command is needed to run only one time for the system
 
-### `yarn build`
+2. then run the command `firebase login` this caommand also needed to run only once & we have to give some permission for it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Then run the command `firebase init` this command needed to run for one time for each project 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Then we have to build our project with the command `npm run build` , it needed to run every time i change my project 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Then last we have to run `firebase deploy` , it is also needed to run each time I changed the project
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
