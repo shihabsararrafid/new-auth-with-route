@@ -7,8 +7,15 @@ This project was Designed with Tailwind [New auth with route](https://github.com
 In the project I have used
 
 ### `yarn packages`
-to install react app and other packages like tailwind or react-router
-Runs the app in the development mode.\
+
+To install react app and other packages like `tailwind` or `react-router-dom`.
+I have also install `font awesome` to add some icons
+ and `google firebase authentication` to authenticate the user .
+ Though I have showed registration with `email`,`google`,`facebook`,`guthub` but I have implemanted with `email-pass` and `google`.
+
+
+
+To run  the app in the development mode.
 Open [New Auth with route](https://new-auth-4d53b.firebaseapp.com/) to view it in your browser.
 It has been deployed in firebase .
 This is my first project which has been deployed in Firebase.
