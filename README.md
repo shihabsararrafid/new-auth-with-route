@@ -16,7 +16,7 @@ This is my first project which has been deployed in Firebase.
 ### `Steps to deploy in firebase`
 
 
-1. run the command in cmd 'npm install -g firebase tools' this command is needed to run only one time for the system
+1. run the command in cmd `npm install -g firebase tools` this command is needed to run only one time for the system
 
 2. then run the command `firebase login` this caommand also needed to run only once & we have to give some permission for it.
 
