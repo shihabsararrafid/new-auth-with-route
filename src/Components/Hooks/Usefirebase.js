@@ -37,6 +37,7 @@ const Usefirebase = () => {
 
     return {
         useri,
+        setUser,
         signIn,
         handleSignOut
     };

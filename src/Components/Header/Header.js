@@ -5,7 +5,7 @@ import Usefirebase from '../Hooks/Usefirebase';
 
 const Header = () => {
     const { useri, handleSignOut } = Usefirebase();
-    console.log(useri?.displayName);
+    console.log(useri);
     return (
         <div className='header-container'>
             <div className="header-img flex items-center ">
